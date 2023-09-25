@@ -1,0 +1,38 @@
+<div class="product-modals">
+    <template id="product-modal">
+        <div class="popup popup-center">
+            <div class="popup__body product-modal">
+                <button type="button" aria-label="Закрыть модальное окно" data-modal-close class="product-modal__close icon-close"></button>
+                <div class="product-modal__slider swiper">
+                    <div class="swiper-wrapper"></div>
+                    <button type="button" class="product-modal__prev swiper-button-prev icon-prev"></button>
+                    <button type="button" class="product-modal__next swiper-button-next icon-next"></button>
+                    <div class="product-modal__pagination swiper-pagination"></div>
+                </div>
+                <div class="product-modal__body">
+                    <div class="product-modal__title"></div>
+                    <div class="product-modal__desc"></div>
+                    <div class="product-modal__specs">
+                        <div class="product-modal__spec">
+                            <div class="product-modal__spec-title">Вес:</div>
+                            <div class="product-modal__weight"></div>
+                        </div>
+                        <div class="product-modal__spec">
+                            <div class="product-modal__spec-title">Цена за штуку:</div>
+                            <div class="product-modal__price"></div>
+                        </div>
+                    </div>
+                    <div class="product-modal__footer">
+                        <button type="button" class="product-modal__button btn btn-primary"></button>
+                        <div class="product-modal__quantity quantity">
+                            <button type="button" class="quantity__minus"></button>
+                            <span class="quantity__value"></span>
+                            <button type="button" class="quantity__plus"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+    <div class="product-modals__list"></div>
+</div>

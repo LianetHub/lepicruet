@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+	{{> _head }}
+
+	<body>
+		{{> _loader }}
+
+		<div class="wrapper">
+
+			{{> _header }}
+
+			<main class="page">
+				<section class="main">
+					<div class="main__container">
+						<h1 class="main__title title">
+							Производство
+							слоеной выпечки
+							в&nbsp;краснодаре
+						</h1>
+						<a href="#products" class="main__btn btn btn-outline icon-arrow-right">Смотреть продукцию</a>
+					</div>
+				</section>
+				<section id="products" class="products">
+					<div class="products__container">
+						<h2 class="products__title title">меню<span>/</span><span class="page-version">Розница</span></h2>
+						<div class="products__variants">
+							<div class="products__tabs" role="tablist">
+								<button type="button" id="menu-tab" role="tab" aria-selected="true" aria-controls="products-menu" class="products__tabs-btn">Меню</button>
+								<button type="button" id="sert-tab" role="tab" aria-selected="false" aria-controls="products-sert" tabindex="-1" class="products__tabs-btn">Подарочный сертификат</button>
+							</div>
+							<div class="products__content">
+								<div class="products__tabpanel products__menu" role="tabpanel" id="products-menu" tabindex="0" aria-labelledby="menu-tab">
+									<template id="product">
+										<li class="product" data-animate="bottom">
+											<a href="" data-modal class="product__title"></a>
+											<div class="product__desc"></div>
+											<a href="" data-modal class="product__image">
+												<img class="product__image-item">
+											</a>
+											<div class="product__specs">
+												<span class="product__price"></span> руб./<span class="product__weight"></span> гр.
+											</div>
+											<button type="button" class="product__btn"></button>
+										</li>
+									</template>
+									<ul class="products__list"></ul>
+								</div>
+								<div class="products__tabpanel products__sert" role="tabpanel" id="products-sert" tabindex="0" aria-labelledby="sert-tab">
+									<div class="products__sert-wrapper">
+										<div class="products__sert-image">
+											<picture>
+												<source srcset="img/cert.webp" type="image/webp">
+												<img src="img/cert.jpg" class="cover-image" alt="cert">
+											</picture>
+										</div>
+										<div class="products__sert-body">
+											<div class="products__sert-title">
+												сертификат
+											</div>
+											<div class="products__sert-rows">
+												<div class="products__sert-row">
+													<div class="products__sert-caption">
+														на сумму:
+													</div>
+													<div class="products__sert-value">
+														3 000 руб.
+													</div>
+												</div>
+												<div class="products__sert-row">
+													<div class="products__sert-caption">
+														Для:
+													</div>
+													<input type="text" name="to" class="products__sert-input" placeholder="имя">
+												</div>
+											</div>
+											<div class="products__sert-tagline">Эстетика вкуса как образ жизни.</div>
+										</div>
+									</div>
+									<div class="products__sert-footer">
+										<a href="" class="btn btn-outline icon-arrow-right btn-sm">Заказать в WhatsApp</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="about" class="about">
+					<div class="about__container">
+						<div class="about__header">
+							<h2 class="about__title title" data-animate="bottom">
+								о нас
+							</h2>
+							<div class="about__header-image" data-animate="bottom">
+								<picture>
+									<source srcset="img/about/main.webp" type="image/webp">
+									<img src="img/about/main.jpg" class="cover-image" alt="Изображение выпечки">
+								</picture>
+							</div>
+							<p class="about__header-desc" data-animate="bottom">
+								Наша компания объединила лучших специалистов по&nbsp;европейской выпечке, победителей и&nbsp;призеров международных чемпионатов кулинарного мастерства.
+							</p>
+						</div>
+						<ul class="about__list">
+							<li class="about__item">
+								<div class="about__item-image" data-animate="bottom">
+									<picture>
+										<source srcset="img/about/01.webp" type="image/webp">
+										<img src="img/about/01.jpg" alt="Изображение выпечки">
+									</picture>
+								</div>
+								<p class="about__item-text" data-animate="bottom">
+									Культурный код нашей компании направлен
+									на&nbsp;искушенную&nbsp;публику южной столицы России,
+									которая&nbsp;по&nbsp;достоинству оценит многовековые традиции вкуса.
+								</p>
+							</li>
+							<li class="about__item">
+								<p class="about__item-text" data-animate="bottom">
+									Мы представляем классику австро-французской слоеной
+									выпечки и&nbsp;авторский подход в&nbsp;основе рукодельного пекарского искусства.
+								</p>
+								<div class="about__item-image" data-animate="bottom">
+									<picture>
+										<source srcset="img/about/02.webp" type="image/webp">
+										<img src="img/about/02.jpg" alt="Изображение выпечки">
+									</picture>
+								</div>
+							</li>
+							<li class="about__item">
+								<div class="about__item-image" data-animate="bottom">
+									<picture>
+										<source srcset="img/about/03.webp" type="image/webp">
+										<img src="img/about/03.jpg" alt="Изображение выпечки">
+									</picture>
+								</div>
+							</li>
+						</ul>
+						<div class="about__footer">
+							<div class="about__footer-main">
+								<div class="about__footer-title" data-animate="bottom">
+									<span>Le Picru et</span>
+									Мы печем легендарные изделия
+									из&nbsp;слоеного теста особого качества.
+								</div>
+								<a href="" data-animate="bottom" class="about__footer-btn btn btn-outline btn-sm icon-arrow-right">Написать нам в WhatsApp</a>
+							</div>
+							<div class="about__footer-image">
+								<div class="about__footer-image-wrapper">
+									<picture>
+										<source srcset="img/about/04.webp" type="image/webp">
+										<img src="img/about/04.jpg" class="cover-image" alt="Изображение процесса изготовления" data-animate="bottom">
+									</picture>
+								</div>
+								<div class="about__footer-tagline" data-animate="bottom">
+									<div class="about__footer-tagline-text">
+										Эстетика вкуса
+										как образ жизни.
+									</div>
+									<div class="about__footer-tagline-image">
+										<picture>
+											<source srcset="img/about/03.webp" type="image/webp">
+											<img src="img/about/03.jpg" class="cover-image" alt="Изображение выпечки">
+										</picture>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="gallery">
+					<div class="gallery__container">
+						<div class="gallery__slider swiper" data-animate="bottom">
+							<div class="swiper-wrapper">
+								<div class="gallery__slide swiper-slide">
+									<picture>
+										<source srcset="img/gallery/01.webp" type="image/webp">
+										<img src="img/gallery/01.jpg" class="cover-image" alt="Изображение товара">
+									</picture>
+								</div>
+								<div class="gallery__slide swiper-slide">
+									<picture>
+										<source srcset="img/gallery/02.webp" type="image/webp">
+										<img src="img/gallery/02.jpg" class="cover-image" alt="Изображение товара">
+									</picture>
+								</div>
+								<h2 class="gallery__title title swiper-slide">
+									галлерея
+								</h2>
+								<div class="gallery__slide swiper-slide">
+									<picture>
+										<source srcset="img/gallery/03.webp" type="image/webp">
+										<img src="img/gallery/03.jpg" class="cover-image" alt="Изображение товара">
+									</picture>
+								</div>
+								<div class="gallery__slide swiper-slide">
+									<picture>
+										<source srcset="img/gallery/01.webp" type="image/webp">
+										<img src="img/gallery/01.jpg" class="cover-image" alt="Изображение товара">
+									</picture>
+								</div>
+								<div class="gallery__slide swiper-slide">
+									<picture>
+										<source srcset="img/gallery/02.webp" type="image/webp">
+										<img src="img/gallery/02.jpg" class="cover-image" alt="Изображение товара">
+									</picture>
+								</div>
+								<div class="gallery__slide swiper-slide">
+									<picture>
+										<source srcset="img/gallery/03.webp" type="image/webp">
+										<img src="img/gallery/03.jpg" class="cover-image" alt="Изображение товара">
+									</picture>
+								</div>
+								<div class="gallery__slide swiper-slide">
+									<picture>
+										<source srcset="img/gallery/01.webp" type="image/webp">
+										<img src="img/gallery/01.jpg" class="cover-image" alt="Изображение товара">
+									</picture>
+								</div>
+								<div class="gallery__slide swiper-slide">
+									<picture>
+										<source srcset="img/gallery/02.webp" type="image/webp">
+										<img src="img/gallery/02.jpg" class="cover-image" alt="Изображение товара">
+									</picture>
+								</div>
+							</div>
+							<div class="gallery__contorls">
+								<button type="button" class="gallery__prev swiper-button-prev icon-prev"></button>
+								<div class="gallery__pagination swiper-pagination"></div>
+								<button type="button" class="gallery__next swiper-button-next icon-next"></button>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="production" class="production">
+					<div class="production__container">
+						<h2 class="production__title title" data-animate="bottom">
+							<span>Le Picru et</span>
+							производство
+						</h2>
+						<div class="production__video" data-animate="bottom" data-video="https://youtu.be/HOAnpru4ZuM?si=cv2qG2_QdO6woWYQ">
+							<img src="img/logo-lg.svg" class="production__video-poster" alt="poster">
+							<button type="button" class="production__video-btn icon-play"></button>
+						</div>
+					</div>
+				</section>
+				<section class="contacts">
+					<div class="contacts__container">
+						<h2 class="contacts__title title" data-animate="bottom">
+							Мы находимся
+						</h2>
+						<div class="contacts__body">
+							<a href="https://yandex.ru/maps/-/CDUzBFj7" target="_blank" class="contacts__map" data-animate="bottom">
+								<img src="img/map.svg" alt="map">
+							</a>
+							<div class="contacts__info" data-animate="bottom">
+								<address class="contacts__address">
+									<span>Краснодар</span>
+									3 проезд Звенигородский 81
+								</address>
+								<a href="tel:+79523595455" class="contacts__phone">+7 (952) 359-54-55</a>
+								<div class="contacts__socials">
+									<a href="" class="contacts__social icon-instagram"></a>
+									<a href="" class="contacts__social icon-telegram"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+
+			{{> _footer }}
+
+			{{> _cart }}
+
+			{{> _modals }}
+
+			<div class="actions">
+				<a href="#" aria-label="В начало страницы" data-arrow-top class="actions__item icon-arrow-top "></a>
+				<a href="#cart" aria-label="Открыть корзину" data-modal class="actions__item icon-bag cart-btn">
+					<span class="cart-btn__quantity"></span>
+				</a>
+			</div>
+
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+		<script type="module" src="js/app.js"></script>
+	</body>
+</html>

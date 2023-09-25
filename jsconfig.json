@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "~favicon/*": [
+                "src/favicon/*"
+            ],
+            "~fonts/*": [
+                "src/fonts/*"
+            ],
+            "~html/*": [
+                "src/html/*"
+            ],
+            "~img/*": [
+                "src/img/*"
+            ],
+            "~js/*": [
+                "src/js/*"
+            ],
+            "~json/*": [
+                "src/json/*"
+            ],
+            "~scss/*": [
+                "src/scss/*"
+            ],
+            "~/*": [
+                "src/*"
+            ]
+        }
+    }
+}

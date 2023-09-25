@@ -1,0 +1,35 @@
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: em(20);
+    z-index: 6;
+    background: #442f29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:
+        opacity 0.3s ease 0s,
+        visibility 0.3s ease 0s;
+    &.hidden-loader {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+    & svg {
+        max-height: 100%;
+        width: auto;
+    }
+    &.loader-start {
+        & svg {
+            opacity: 0;
+        }
+    }
+    .loader-retail,
+    .loader-partners {
+        opacity: 0;
+        // display: none;
+    }
+}

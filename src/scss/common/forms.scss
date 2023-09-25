@@ -1,0 +1,114 @@
+.input {
+	text-overflow: ellipsis;
+	transition: all 0.3s ease 0s;
+	width: 100%;
+	background: none;
+	border-radius: 0;
+	border-bottom: rem(1) solid rgba($color: $text, $alpha: 0.5);
+	color: rgba(227, 217, 198, 0.34);
+	font-size: rem(14);
+	font-style: italic;
+	font-weight: 300;
+	line-height: math.div(22, 14);
+	letter-spacing: em(0.28, 14);
+	&:focus {
+		border-color: currentColor;
+		color: $text;
+	}
+
+	&::placeholder {
+		opacity: 1;
+	}
+	&:disabled {
+		background: #dfe0e1;
+		border-color: #dfe0e1;
+	}
+}
+
+.btn {
+	position: relative;
+	display: inline-flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	transition: all 0.3s ease 0s;
+	user-select: none;
+	white-space: nowrap;
+	line-height: math.div(33, 23);
+	letter-spacing: em(0.69, 23);
+	column-gap: em(10, 23);
+	padding: em(5, 23) em(72, 23);
+	font-size: rem(12);
+	@media (min-width: $md5) {
+		font-size: rem(15);
+	}
+	@media (min-width: $md4) {
+		font-size: rem(20);
+	}
+	@media (min-width: $md3) {
+		font-size: rem(17);
+	}
+	@media (min-width: $md2) {
+		font-size: rem(20);
+	}
+	@media (min-width: $md1) {
+		font-size: rem(23);
+	}
+	&::before {
+		order: 1;
+		font-size: em(9, 23);
+	}
+	&.btn-outline {
+		padding: em(3, 15) em(24, 15);
+		@media (min-width: $md5) {
+			padding: em(4, 15) em(27, 15);
+		}
+		@media (min-width: $md4) {
+			padding: em(4, 20) em(23, 20);
+		}
+		@media (min-width: $md1) {
+			padding: em(8, 23) em(31, 23);
+		}
+		border-radius: rem(30);
+		border: rem(1.2) solid $text;
+		color: $text;
+		@media (any-hover: hover) {
+			&:hover {
+				background: $text;
+				color: $accent;
+			}
+		}
+	}
+	&.btn-primary {
+		background: $text;
+		color: $accent;
+		@media (any-hover: hover) {
+			&:hover {
+				background-color: darken($color: $text, $amount: 10);
+			}
+		}
+	}
+	&.btn-sm {
+		font-size: rem(11);
+		padding: em(3, 11) em(13, 11);
+		@media (min-width: $md5) {
+			font-size: rem(13);
+			padding: em(6, 13) em(20, 13);
+		}
+		@media (min-width: $md3) {
+			padding: em(3, 15) em(28, 15);
+			font-size: rem(15);
+		}
+		@media (min-width: $md1) {
+			padding: em(8, 23) em(36, 18);
+			font-size: rem(18);
+		}
+	}
+	&:disabled,
+	&[aria-disabled="true"] {
+		cursor: default;
+		color: #fff;
+		background: #dfe0e1;
+		pointer-events: none;
+	}
+}

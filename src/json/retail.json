@@ -1,0 +1,352 @@
+[
+    {
+        "articul": "retail-1",
+        "name": "Классический круассан",
+        "desc": "На новозеландском <br> сливочном масле",
+        "url": "img/products/01.png",
+        "slides": [
+            "img/products/01.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "160",
+        "weight": "80"
+    },
+    {
+        "articul": "retail-2",
+        "name": "Классический <br> Grolet",
+        "desc": "В виде пышного ромба на&nbsp;новозеландском сливочном масле",
+        "url": "img/products/02.png",
+        "slides": [
+            "img/products/02.png",
+            "img/products/01.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "160",
+        "weight": "80"
+    },
+    {
+        "articul": "retail-3",
+        "name": "Шоколадное <br> Plie",
+        "desc": "С начинкой из темного бельгийского шоколада, с лесным орехом",
+        "url": "img/products/03.png",
+        "slides": [
+            "img/products/03.png",
+            "img/products/02.png",
+            "img/products/01.png",
+            "img/products/04.png"
+        ],
+        "price": "280",
+        "weight": "130"
+    },
+    {
+        "articul": "retail-4",
+        "name": "Куб с кремом <br> экзотик",
+        "desc": "С курдом, со вкусом манго <br> и маракуйя",
+        "url": "img/products/04.png",
+        "slides": [
+            "img/products/04.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/01.png"
+        ],
+        "price": "240",
+        "weight": "90"
+    },
+    {
+        "articul": "retail-5",
+        "name": "Круассан <br> малина/базилик",
+        "desc": "С конфи из свежей малины <br> и базилика",
+        "url": "img/products/05.png",
+        "slides": [
+            "img/products/05.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "190",
+        "weight": "120"
+    },
+    {
+        "articul": "retail-6",
+        "name": "Круассан <br> нутелла",
+        "desc": "С шоколадно-ореховой <br> пастой нутелла",
+        "url": "img/products/06.png",
+        "slides": [
+            "img/products/06.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "190",
+        "weight": "120"
+    },
+    {
+        "articul": "retail-7",
+        "name": "Круассан <br> миндаль-апельсин",
+        "desc": "Сливочно-заварной <br> крем с нотками цитруса",
+        "url": "img/products/01.png",
+        "slides": [
+            "img/products/01.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "230",
+        "weight": "120"
+    },
+    {
+        "articul": "retail-8",
+        "name": "Супрем шайба <br> 10см.",
+        "desc": "Слоеное тесто на основе Новозеландского масла",
+        "url": "img/products/07.png",
+        "slides": [
+            "img/products/07.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "120",
+        "weight": "55"
+    },
+    {
+        "articul": "retail-9",
+        "name": "Круассан <br> фисташковый",
+        "desc": "С фисташковым заварным кремом, <br> взбитыми сливками и темным ромом",
+        "url": "img/products/07.png",
+        "slides": [
+            "img/products/07.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "190",
+        "weight": "120"
+    },
+    {
+        "articul": "retail-10",
+        "name": "Классический <br> конверт Pain",
+        "desc": "Слоеное тесто на основе <br> Новозеландского масла",
+        "url": "img/products/02.png",
+        "slides": [
+            "img/products/02.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "160",
+        "weight": "80"
+    },
+    {
+        "articul": "retail-11",
+        "name": "Круассан <br> соленая карамель",
+        "desc": "С фирменной соленой карамелью собственного производства",
+        "url": "img/products/01.png",
+        "slides": [
+            "img/products/01.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "220",
+        "weight": "120"
+    },
+    {
+        "articul": "retail-12",
+        "name": "Круассан <br> Кокос-лайм",
+        "desc": "Заварной сливочный крем <br> на основе кокосового молока",
+        "url": "img/products/01.png",
+        "slides": [
+            "img/products/01.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "260",
+        "weight": "120"
+    },
+    {
+        "articul": "retail-13",
+        "name": "Конверт <br> удлененный Plie",
+        "desc": "Описание описание описание <br> Описание описание",
+        "url": "img/products/03.png",
+        "slides": [
+            "img/products/03.png",
+            "img/products/02.png",
+            "img/products/01.png",
+            "img/products/04.png"
+        ],
+        "price": "160",
+        "weight": "80"
+    },
+    {
+        "articul": "retail-14",
+        "name": "Краффин",
+        "desc": "Описание описание описание <br> Описание описание",
+        "url": "img/products/08.png",
+        "slides": [
+            "img/products/08.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "130",
+        "weight": "60"
+    },
+    {
+        "articul": "retail-15",
+        "name": "Супрем <br> фисташка",
+        "desc": "Заварной сливочный крем с добавлением натуральной фисташковой пасты",
+        "url": "img/products/07.png",
+        "slides": [
+            "img/products/07.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "220",
+        "weight": "90"
+    },
+    {
+        "articul": "retail-16",
+        "name": "Краффин <br> Лимонный Курд",
+        "desc": "Со сливочным заварным лимонным кремом",
+        "url": "img/products/09.png",
+        "slides": [
+            "img/products/09.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "260",
+        "weight": "95"
+    },
+    {
+        "articul": "retail-17",
+        "name": "Дениш",
+        "desc": "С заварным кремом <br> и сезонными фруктами",
+        "url": "img/products/10.png",
+        "slides": [
+            "img/products/10.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "190",
+        "weight": "130"
+    },
+    {
+        "articul": "retail-18",
+        "name": "Улитка <br> с изюмом",
+        "desc": "С изюмом вымоченным <br> в тёмном роме с корицей",
+        "url": "img/products/11.png",
+        "slides": [
+            "img/products/11.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "190",
+        "weight": "65"
+    },
+    {
+        "articul": "retail-19",
+        "name": "Греческий <br> круассан",
+        "desc": "Копченый адыгейский сыр, вяленые <br> томаты, каперсы, соус Песто",
+        "url": "img/products/12.png",
+        "slides": [
+            "img/products/12.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "340",
+        "weight": "245"
+    },
+    {
+        "articul": "retail-20",
+        "name": "Альпийский <br> круассан",
+        "desc": "Сыр-Чедер, ветчина из индейки, <br> смесь французской и Дижонской горчицы",
+        "url": "img/products/12.png",
+        "slides": [
+            "img/products/12.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "430",
+        "weight": "240"
+    },
+    {
+        "articul": "retail-21",
+        "name": "Альпийский <br> круассан",
+        "desc": "Сыр-Чедер, ветчина из индейки, <br> смесь французской и Дижонской горчицы",
+        "url": "img/products/12.png",
+        "slides": [
+            "img/products/12.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "430",
+        "weight": "240"
+    },
+    {
+        "articul": "retail-22",
+        "name": "Альпийский <br> круассан",
+        "desc": "Сыр-Чедер, ветчина из индейки, <br> смесь французской и Дижонской горчицы",
+        "url": "img/products/12.png",
+        "slides": [
+            "img/products/12.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "430",
+        "weight": "240"
+    },
+    {
+        "articul": "retail-23",
+        "name": "Альпийский <br> круассан",
+        "desc": "Сыр-Чедер, ветчина из индейки, <br> смесь французской и Дижонской горчицы",
+        "url": "img/products/12.png",
+        "slides": [
+            "img/products/12.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "430",
+        "weight": "240"
+    },
+    {
+        "articul": "retail-24",
+        "name": "Альпийский <br> круассан",
+        "desc": "Сыр-Чедер, ветчина из индейки, <br> смесь французской и Дижонской горчицы",
+        "url": "img/products/12.png",
+        "slides": [
+            "img/products/12.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "430",
+        "weight": "240"
+    },
+    {
+        "articul": "retail-25",
+        "name": "Альпийский <br> круассан",
+        "desc": "Сыр-Чедер, ветчина из индейки, <br> смесь французской и Дижонской горчицы",
+        "url": "img/products/13.png",
+        "slides": [
+            "img/products/13.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "430",
+        "weight": "240"
+    }
+]

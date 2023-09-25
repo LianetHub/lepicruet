@@ -1,0 +1,337 @@
+.popup {
+    position: fixed;
+    background: rgba(227, 217, 198, 0.28);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: all 0.3s linear 0s;
+    z-index: 55555;
+    pointer-events: none;
+    &.popup-center {
+        display: flex;
+    }
+    &.open {
+        pointer-events: all;
+        opacity: 1;
+        visibility: visible;
+        & .popup__body {
+            transform: scale(1);
+            &.cart {
+                transform: translateX(0);
+            }
+        }
+    }
+    // .popup__body
+    &__body {
+        flex: 1 1 auto;
+        transition:
+            transform 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) 0s,
+            opacity 0.3s cubic-bezier(0.47, 0, 0.745, 0.715) 0s;
+        width: 100%;
+        transform: scale(0);
+
+        padding: em(41) em(10) em(16) em(10);
+        @media (min-width: $md5) {
+            padding: em(52) em(21) em(16) em(21);
+        }
+        @media (min-width: $md4) {
+            padding: em(52) em(33) em(16) em(33);
+        }
+        @media (min-width: $md3) {
+            padding: em(32) em(17) em(32) em(30);
+        }
+        @media (min-width: $md2) {
+            padding: em(41) em(28) em(40) em(23);
+        }
+        @media (min-width: $md1) {
+            padding: em(48) em(52) em(60) em(41);
+        }
+        &.cart {
+            transform: translateX(100%);
+        }
+    }
+    &__close {
+        position: absolute;
+        top: rem(32);
+        right: rem(32);
+        color: #fff;
+        transition: color 0.3s ease 0s;
+        z-index: 2;
+        font-size: rem(28);
+        @media (any-hover: hover) {
+            &:hover {
+                color: $red;
+            }
+        }
+    }
+}
+
+.product-modal {
+    background: #442f29;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: rem(260);
+    @media (min-width: $md5) {
+        max-width: rem(347);
+    }
+    @media (min-width: $md4) {
+        max-width: rem(458);
+    }
+    @media (min-width: $md3) {
+        flex-direction: row;
+        max-width: rem(676);
+    }
+    @media (min-width: $md2) {
+        max-width: rem(837);
+    }
+    @media (min-width: $md1) {
+        max-width: rem(950);
+    }
+
+    // .product-modal__close
+    &__close {
+        position: absolute;
+        top: rem(10);
+        right: rem(10);
+    }
+    // .product-modal__slider
+    &__slider {
+        position: relative;
+        min-width: 0;
+        margin: 0 auto;
+        max-width: rem(189);
+        @media (min-width: $md5) {
+            max-width: rem(246);
+        }
+        @media (min-width: $md4) {
+            max-width: rem(304);
+        }
+        @media (min-width: $md3) {
+            max-width: 100%;
+            margin: em(0) em(35) em(0) em(0);
+            flex: 0 0 rem(197);
+        }
+        @media (min-width: $md2) {
+            flex: 0 0 rem(240);
+            margin: em(0) em(50) em(0) em(0);
+        }
+        @media (min-width: $md1) {
+            margin: em(0) em(38) em(0) em(0);
+            flex: 0 0 rem(260);
+        }
+        .swiper-slide {
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    // .product-modal__prev
+    &__prev {
+    }
+    // .product-modal__next
+    &__next {
+    }
+
+    &__prev,
+    &__next {
+        color: #fff;
+        &::after {
+            display: none;
+        }
+    }
+    // .product-modal__pagination
+    &__pagination {
+        .swiper-pagination-bullet {
+            opacity: 1;
+            border: rem(1) solid $text;
+            width: rem(7);
+            height: rem(7);
+            &.swiper-pagination-bullet-active {
+                background: $text;
+            }
+        }
+    }
+    // .product-modal__body
+    &__body {
+        display: contents;
+        @media (min-width: $md3) {
+            flex: 1 1 auto;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    // .product-modal__title
+    &__title {
+        order: -1;
+        line-height: math.div(36, 26);
+        letter-spacing: em(0.52, 26);
+        text-align: center;
+        font-size: rem(20);
+        @media (min-width: $md5) {
+            font-size: rem(24);
+        }
+        @media (min-width: $md4) {
+            font-size: rem(27);
+        }
+        @media (min-width: $md3) {
+            text-align: left;
+            font-size: rem(20);
+        }
+        @media (min-width: $md2) {
+            font-size: rem(23);
+        }
+        @media (min-width: $md1) {
+            font-size: rem(26);
+        }
+        & br {
+            display: none;
+        }
+    }
+    // .product-modal__desc
+    &__desc {
+        order: -1;
+        line-height: math.div(24, 16);
+        letter-spacing: em(0.32, 16);
+        text-align: center;
+        font-size: rem(11);
+        margin: rem(6) 0 rem(25) em(0);
+        @media (min-width: $md5) {
+            margin: rem(10) 0 rem(37) em(0);
+            font-size: rem(14);
+        }
+        @media (min-width: $md4) {
+            margin: rem(15) 0 rem(37) em(0);
+            font-size: rem(18);
+        }
+        @media (min-width: $md3) {
+            max-width: rem(300);
+            text-align: left;
+            margin: rem(13) em(0) em(0) em(0);
+            font-size: rem(12);
+        }
+        @media (min-width: $md2) {
+            margin: em(10) em(0) em(0) em(0);
+            font-size: rem(14);
+        }
+        @media (min-width: $md1) {
+            font-size: rem(16);
+        }
+    }
+    // .product-modal__specs
+    &__specs {
+        width: 100%;
+        margin: em(23) auto 0;
+        max-width: rem(189);
+        @media (min-width: $md5) {
+            max-width: rem(246);
+        }
+        @media (min-width: $md4) {
+            margin: em(42) auto 0;
+            max-width: rem(304);
+        }
+        @media (min-width: $md3) {
+            margin: em(29) em(0) em(50) em(0);
+            max-width: rem(200);
+        }
+        @media (min-width: $md2) {
+            margin: em(45) em(0) em(0) em(0);
+        }
+    }
+    // .product-modal__spec
+    &__spec {
+        display: flex;
+        justify-content: space-between;
+        font-size: rem(10);
+        @media (min-width: $md5) {
+            font-size: rem(13);
+        }
+        @media (min-width: $md4) {
+            font-size: rem(14);
+        }
+        line-height: math.div(22, 14);
+        letter-spacing: em(0.28, 14);
+    }
+    // .product-modal__spec-title
+    &__spec-title {
+        font-weight: 300;
+    }
+    // .product-modal__weight
+    &__weight {
+        &::after {
+            content: "гр.";
+        }
+    }
+    // .product-modal__price
+    &__price {
+        &::after {
+            content: "руб.";
+        }
+    }
+    // .product-modal__footer
+    &__footer {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        max-width: rem(189);
+        margin: em(23) auto em(0);
+        @media (min-width: $md5) {
+            margin: em(38) auto em(0);
+            max-width: rem(246);
+        }
+        @media (min-width: $md4) {
+            max-width: rem(304);
+        }
+        @media (min-width: $md3) {
+            max-width: 100%;
+            margin: auto em(0) em(0) em(0);
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+        }
+        .product-modal__quantity {
+            display: none;
+        }
+    }
+    // .product-modal__quantity
+    &__quantity {
+        margin: em(0) auto em(11);
+        @media (min-width: $md3) {
+            margin: em(0) em(70) em(0) em(0);
+        }
+    }
+    // .product-modal__button
+    &__button {
+        &.btn {
+            width: 100%;
+            font-size: rem(30);
+            @media (min-width: $md5) {
+                font-size: rem(35);
+            }
+            @media (min-width: $md3) {
+                width: auto;
+                font-size: rem(30);
+            }
+            @media (min-width: $md2) {
+                font-size: rem(35);
+            }
+        }
+        &::before {
+            @extend %ic;
+            @extend .icon-cart;
+        }
+        &.added {
+            &::before {
+                @extend .icon-check;
+            }
+            & + .product-modal__quantity {
+                display: flex;
+            }
+        }
+    }
+}

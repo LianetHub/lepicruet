@@ -1,0 +1,170 @@
+[
+    {
+        "articul": "partners-1",
+        "name": "Краффин",
+        "desc": "Описание описание описание <br> Описание описание",
+        "url": "img/products/08.png",
+        "slides": [
+            "img/products/08.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "130",
+        "weight": "60"
+    },
+    {
+        "articul": "partners-2",
+        "name": "Супрем <br> фисташка",
+        "desc": "Заварной сливочный крем с добавлением натуральной фисташковой пасты",
+        "url": "img/products/07.png",
+        "slides": [
+            "img/products/07.png",
+            "img/products/01.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "220",
+        "weight": "90"
+    },
+    {
+        "articul": "partners-3",
+        "name": "Краффин <br> Лимонный Курд",
+        "desc": "Со сливочным заварным лимонным кремом",
+        "url": "img/products/09.png",
+        "slides": [
+            "img/products/09.png",
+            "img/products/02.png",
+            "img/products/01.png",
+            "img/products/04.png"
+        ],
+        "price": "260",
+        "weight": "95"
+    },
+    {
+        "articul": "partners-4",
+        "name": "Дениш",
+        "desc": "С заварным кремом <br> и сезонными фруктами",
+        "url": "img/products/10.png",
+        "slides": [
+            "img/products/10.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/01.png"
+        ],
+        "price": "190",
+        "weight": "130"
+    },
+    {
+        "articul": "partners-5",
+        "name": "Улитка <br> с изюмом",
+        "desc": "С изюмом вымоченным <br> в тёмном роме с корицей",
+        "url": "img/products/11.png",
+        "slides": [
+            "img/products/11.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "190",
+        "weight": "65"
+    },
+    {
+        "articul": "partners-6",
+        "name": "Греческий <br> круассан",
+        "desc": "Копченый адыгейский сыр, вяленые <br> томаты, каперсы, соус Песто",
+        "url": "img/products/12.png",
+        "slides": [
+            "img/products/12.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "340",
+        "weight": "245"
+    },
+    {
+        "articul": "partners-7",
+        "name": "Альпийский <br> круассан",
+        "desc": "Сыр-Чедер, ветчина из индейки, <br> смесь французской и Дижонской горчицы",
+        "url": "img/products/12.png",
+        "slides": [
+            "img/products/12.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "430",
+        "weight": "240"
+    },
+    {
+        "articul": "partners-8",
+        "name": "Альпийский <br> круассан",
+        "desc": "Сыр-Чедер, ветчина из индейки, <br> смесь французской и Дижонской горчицы",
+        "url": "img/products/12.png",
+        "slides": [
+            "img/products/12.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "430",
+        "weight": "240"
+    },
+    {
+        "articul": "partners-9",
+        "name": "Альпийский <br> круассан",
+        "desc": "Сыр-Чедер, ветчина из индейки, <br> смесь французской и Дижонской горчицы",
+        "url": "img/products/12.png",
+        "slides": [
+            "img/products/12.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "430",
+        "weight": "240"
+    },
+    {
+        "articul": "partners-10",
+        "name": "Альпийский <br> круассан",
+        "desc": "Сыр-Чедер, ветчина из индейки, <br> смесь французской и Дижонской горчицы",
+        "url": "img/products/12.png",
+        "slides": [
+            "img/products/12.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "430",
+        "weight": "240"
+    },
+    {
+        "articul": "partners-11",
+        "name": "Альпийский <br> круассан",
+        "desc": "Сыр-Чедер, ветчина из индейки, <br> смесь французской и Дижонской горчицы",
+        "url": "img/products/12.png",
+        "slides": [
+            "img/products/12.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "430",
+        "weight": "240"
+    },
+    {
+        "articul": "partners-12",
+        "name": "Альпийский <br> круассан",
+        "desc": "Сыр-Чедер, ветчина из индейки, <br> смесь французской и Дижонской горчицы",
+        "url": "img/products/13.png",
+        "slides": [
+            "img/products/13.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "430",
+        "weight": "240"
+    }
+]

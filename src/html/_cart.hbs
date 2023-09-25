@@ -1,0 +1,63 @@
+<div id="cart" class="popup">
+    <form action="#" class="popup__body cart">
+        <div class="cart__header">
+            <div class="cart__title">
+                Ваш заказ
+            </div>
+            <button type="button" aria-label="Закрыть корзину" data-modal-close class="cart__close icon-close"></button>
+        </div>
+        <table class="cart__table">
+            <thead>
+                <tr>
+                    <th>Продукт</th>
+                    <th>Стоимость</th>
+                    <th>Количество</th>
+                    <th>Сумма</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody class="cart__list"></tbody>
+        </table>
+        <div class="cart__total">
+            <div class="cart__total-text">
+                Итого:
+            </div>
+            <div data-total class="cart__total-value">790</div>
+        </div>
+        <div class="cart__delivery">
+            <div class="cart__delivery-caption">
+                Доставка
+            </div>
+            <div class="cart__delivery-body">
+                <div class="cart__options">
+                    <label class="cart__option">
+                        <input type="radio" name="delivery" checked value="pickup" class="cart__option-input hidden" hidden>
+                        <span class="cart__option-content">
+                            Самовывоз
+                        </span>
+                    </label>
+                    <label class="cart__option">
+                        <input type="radio" name="delivery" value="city" class="cart__option-input hidden" hidden>
+                        <span class="cart__option-content">
+                            Доставка по городу
+                        </span>
+                    </label>
+                </div>
+                <div class="cart__delivery-price">
+                    1200 руб.
+                </div>
+            </div>
+            <div class="cart__footer">
+                <div class="cart__rows hidden">
+                    <div class="cart__row">
+                        <input type="text" name="name" class="input" placeholder="Ваше имя...">
+                    </div>
+                    <div class="cart__row">
+                        <input type="text" name="name" class="input" placeholder="Ваш адрес...">
+                    </div>
+                </div>
+                <button type="submit" class="cart__btn btn btn-primary">Оплатить</button>
+            </div>
+        </div>
+    </form>
+</div>
