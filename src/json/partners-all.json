@@ -1,0 +1,464 @@
+[
+    {
+        "articul": "partners-1",
+        "name": "Классический круассан",
+        "desc": "Хрустящее воздушное сливочное тесто с ажурной неповторимой мягкой текстурой в форме знаменитого полумесяца, без начинки. Отлично подходит для сэндвича",
+        "url": "img/products/01.png",
+        "background": "img/products/01-bg.jpg",
+        "slides": [
+            "img/products/classic-01.jpg",
+            "img/products/classic-02.jpg",
+            "img/products/classic-03.jpg",
+            "img/products/classic-04.jpg",
+            "img/products/classic-05.jpg"
+        ],
+        "price": "80",
+        "weight": "80"
+    },
+    {
+        "articul": "partners-2",
+        "name": "Классический <br> Grolet",
+        "desc": "Инстаграммный любимиц. Современная форма круассана в виде асимметричного пышного ромба. Имеет особую петлистость теста и идеальную глянцевую корочку",
+        "url": "img/products/02.png",
+        "background": "img/products/02-bg.jpg",
+        "slides": [
+            "img/products/grolet-01.jpg",
+            "img/products/grolet-02.jpg",
+            "img/products/grolet-03.jpg",
+            "img/products/grolet-04.jpg",
+            "img/products/grolet-05.jpg",
+            "img/products/grolet-06.jpg",
+            "img/products/grolet-07.jpg",
+            "img/products/grolet-08.jpg",
+            "img/products/grolet-09.jpg",
+            "img/products/grolet-10.jpg"
+        ],
+        "price": "80",
+        "weight": "80"
+    },
+    {
+        "articul": "partners-3",
+        "name": "Супрем-Шайба 10см",
+        "desc": false,
+        "url": "img/products/09.png",
+        "background": "img/products/09-bg.jpg",
+        "slides": [
+            "img/products/09.png"
+        ],
+        "price": "60",
+        "weight": "55"
+    },
+    {
+        "articul": "partners-4",
+        "name": "Классический конверт Pain",
+        "desc": false,
+        "url": "img/products/10.png",
+        "background": "img/products/10-bg.jpg",
+        "slides": [
+            "img/products/10.png"
+        ],
+        "price": "80",
+        "weight": "80"
+    },
+    {
+        "articul": "partners-5",
+        "name": "Конверт удлиненный Plié",
+        "desc": false,
+        "url": "img/products/11.png",
+        "background": "img/products/11-bg.jpg",
+        "slides": [
+            "img/products/11.png"
+        ],
+        "price": "80",
+        "weight": "80"
+    },
+    {
+        "articul": "partners-6",
+        "name": "Краффин",
+        "desc": "Копченый адыгейский сыр, вяленые <br> томаты, каперсы, соус Песто",
+        "url": "img/products/12.png",
+        "background": "img/products/12-bg.jpg",
+        "slides": [
+            "img/products/12.png"
+        ],
+        "price": "65",
+        "weight": "60"
+    },
+    {
+        "articul": "partners-7",
+        "name": "Миникруассан",
+        "desc": false,
+        "url": "img/products/12.png",
+        "background": "img/products/12-bg.jpg",
+        "slides": [
+            "img/products/12.png"
+        ],
+        "price": "35",
+        "weight": "35"
+    },
+    {
+        "articul": "partners-8",
+        "name": "Минишайба 6см",
+        "desc": false,
+        "url": "img/products/12.png",
+        "background": "img/products/12-bg.jpg",
+        "slides": [
+            "img/products/12.png"
+        ],
+        "price": "25",
+        "weight": "25"
+    },
+    {
+        "articul": "partners-9",
+        "name": "Миникуб 6см",
+        "desc": false,
+        "url": "img/products/12.png",
+        "background": "img/products/12-bg.jpg",
+        "slides": [
+            "img/products/12.png"
+        ],
+        "price": "55",
+        "weight": "55"
+    },
+    {
+        "articul": "partners-10",
+        "name": "Тарталетка",
+        "desc": false,
+        "url": "img/products/12.png",
+        "background": "img/products/12-bg.jpg",
+        "slides": [
+            "img/products/12.png"
+        ],
+        "price": "43",
+        "weight": "45"
+    },
+    {
+        "articul": "partners-11",
+        "name": "«Английский»",
+        "desc": "Классический сливочный круассан подается в виде сэндвича с начинкой из сыра Чеддр, ветчина из индейки и Дижонской горчицы",
+        "url": "img/products/14.png",
+        "background": "img/products/14-bg.jpg",
+        "slides": [
+            "img/products/english-01.jpg",
+            "img/products/english-02.jpg",
+            "img/products/english-03.jpg",
+            "img/products/english-04.jpg",
+            "img/products/english-05.jpg",
+            "img/products/english-06.jpg",
+            "img/products/english-07.jpg"
+        ],
+        "price": "215",
+        "weight": "240"
+    },
+    {
+        "articul": "partners-12",
+        "name": "«Южный»",
+        "desc": "Классический сливочный круассан подается в виде сэндвича с начинкой из масляной рыбы холодного копчения, каперсов, лимонона и крем-чиз со шпинатом",
+        "url": "img/products/15.png",
+        "background": "img/products/15-bg.jpg",
+        "slides": [
+            "img/products/south-01.jpg",
+            "img/products/south-02.jpg",
+            "img/products/south-03.jpg"
+        ],
+        "price": "150",
+        "weight": "245"
+    },
+    {
+        "articul": "partners-13",
+        "name": "«Греческий»",
+        "desc": "Классический сливочный круассан подается в виде сэндвича  с начинкой из копченого адыгейского домашнего сыра, с вялеными  томатами, каперсами и соусом песто",
+        "url": "img/products/16.png",
+        "background": "img/products/16-bg.jpg",
+        "slides": [
+            "img/products/greek-01.jpg",
+            "img/products/greek-02.jpg",
+            "img/products/greek-03.jpg",
+            "img/products/greek-04.jpg",
+            "img/products/greek-05.jpg",
+            "img/products/greek-06.jpg",
+            "img/products/greek-07.jpg"
+        ],
+        "price": "170",
+        "weight": "245"
+    },
+    {
+        "articul": "partners-14",
+        "name": "«Французский»",
+        "desc": "Классический сливочный круассан подается в виде сэндвича  с начинкой из буженины,соус трюфель/грибы и помидоры черри",
+        "url": "img/products/13.png",
+        "background": "img/products/13-bg.jpg",
+        "slides": [
+            "img/products/13.png"
+        ],
+        "price": "185",
+        "weight": "245"
+    },
+    {
+        "articul": "partners-15",
+        "name": "«Норвежский»",
+        "desc": "Классический сливочный круассан подается в виде сэндвича с начинкой из лосося с/с, крем-чиз со шпинатом на подушке из свежих листьев салата",
+        "url": "img/products/17.png",
+        "background": "img/products/17-bg.jpg",
+        "slides": [
+            "img/products/norvegian-01.jpg",
+            "img/products/norvegian-02.jpg",
+            "img/products/norvegian-03.jpg",
+            "img/products/norvegian-04.jpg",
+            "img/products/norvegian-05.jpg",
+            "img/products/norvegian-06.jpg",
+            "img/products/norvegian-07.jpg"
+        ],
+        "price": "196",
+        "weight": "220"
+    },
+    {
+        "articul": "partners-16",
+        "name": "«Тихоокеанский»",
+        "desc": "Карпаччо куриное филе со сливочным соусом на основе тунца и французской горчицы и огурец-корнишона",
+        "url": "img/products/18.png",
+        "background": "img/products/18-bg.jpg",
+        "slides": [
+            "img/products/ocean-01.jpg",
+            "img/products/ocean-02.jpg",
+            "img/products/ocean-03.jpg",
+            "img/products/ocean-04.jpg"
+        ],
+        "price": "160",
+        "weight": "145"
+    },
+    {
+        "articul": "partners-17",
+        "name": "Круассан с сосиской и сыром",
+        "desc": false,
+        "url": "img/products/19.png",
+        "background": "img/products/19-bg.jpg",
+        "slides": [
+            "img/products/13.png",
+            "img/products/02.png",
+            "img/products/03.png",
+            "img/products/04.png"
+        ],
+        "price": "120",
+        "weight": "130"
+    },
+    {
+        "articul": "partners-18",
+        "name": "Круассан малина/базилик",
+        "desc": false,
+        "url": "img/products/10.png",
+        "background": "img/products/10-bg.jpg",
+        "slides": [
+            "img/products/malina-01.jpg",
+            "img/products/malina-02.jpg",
+            "img/products/malina-03.jpg",
+            "img/products/malina-04.jpg",
+            "img/products/malina-05.jpg",
+            "img/products/malina-06.jpg",
+            "img/products/malina-07.jpg",
+            "img/products/malina-08.jpg"
+        ],
+        "price": "96",
+        "weight": "120"
+    },
+    {
+        "articul": "partners-19",
+        "name": "Куб круассан экзотик",
+        "desc": "Воздушное сливочное слоеное тесто в форме куба 6см  с заварным сливочным кремом манго/маракуйя",
+        "url": "img/products/13.png",
+        "background": "img/products/13-bg.jpg",
+        "slides": [
+            "img/products/13.png"
+        ],
+        "price": "120",
+        "weight": "90"
+    },
+    {
+        "articul": "partners-20",
+        "name": "Краффин Лимонный курд",
+        "desc": "Воздушное слоеное сливочное тесто в форме маффина со сливочным заварным лимоным кремом",
+        "url": "img/products/06.png",
+        "background": "img/products/06-bg.jpg",
+        "slides": [
+            "img/products/craffin-01.jpg",
+            "img/products/craffin-02.jpg",
+            "img/products/craffin-03.jpg",
+            "img/products/craffin-04.jpg",
+            "img/products/craffin-05.jpg"
+        ],
+        "price": "115",
+        "weight": "95"
+    },
+    {
+        "articul": "partners-21",
+        "name": "Супрем фисташка",
+        "desc": "Воздушное сливочное слоеное тесто в виде шайбы диаметр 10см с заварным сливочным кремом с пастой из натуральной фисташки",
+        "url": "img/products/05.png",
+        "background": "img/products/05-bg.jpg",
+        "slides": [
+            "img/products/suprem-01.jpg",
+            "img/products/suprem-02.jpg",
+            "img/products/suprem-03.jpg",
+            "img/products/suprem-04.jpg",
+            "img/products/suprem-05.jpg",
+            "img/products/suprem-06.jpg",
+            "img/products/suprem-07.jpg",
+            "img/products/suprem-08.jpg",
+            "img/products/suprem-09.jpg"
+        ],
+        "price": "110",
+        "weight": "90"
+    },
+    {
+        "articul": "partners-22",
+        "name": "Шоколадное плие",
+        "desc": "Полосатое темно-белое шоколадное слоеное тесто в виде удлиненного конверта с начинкой из темного бельгийского шоколада",
+        "url": "img/products/03.png",
+        "background": "img/products/03-bg.jpg",
+        "slides": [
+            "img/products/plie-01.jpg",
+            "img/products/plie-02.jpg",
+            "img/products/plie-03.jpg",
+            "img/products/plie-04.jpg",
+            "img/products/plie-05.jpg",
+            "img/products/plie-06.jpg"
+        ],
+        "price": "140",
+        "weight": "130"
+    },
+    {
+        "articul": "partners-23",
+        "name": "Улитка с изюмом",
+        "desc": "Воздушное слоеное тесто скрученное в завиток с заварным сливочным кремом и изюмом, вымоченным в темном пряном роме",
+        "url": "img/products/08.png",
+        "background": "img/products/08-bg.jpg",
+        "slides": [
+            "img/products/ulitka-01.jpg",
+            "img/products/ulitka-02.jpg",
+            "img/products/ulitka-03.jpg",
+            "img/products/ulitka-04.jpg",
+            "img/products/ulitka-05.jpg",
+            "img/products/ulitka-06.jpg",
+            "img/products/ulitka-07.jpg",
+            "img/products/ulitka-08.jpg",
+            "img/products/ulitka-09.jpg",
+            "img/products/ulitka-10.jpg",
+            "img/products/ulitka-11.jpg"
+        ],
+        "price": "89",
+        "weight": "65"
+    },
+    {
+        "articul": "partners-24",
+        "name": "Круассан фисташковый",
+        "desc": false,
+        "url": "img/products/11.png",
+        "background": "img/products/11-bg.jpg",
+        "slides": [
+            "img/products/fistashka-01.jpg",
+            "img/products/fistashka-02.jpg",
+            "img/products/fistashka-03.jpg",
+            "img/products/fistashka-04.jpg",
+            "img/products/fistashka-05.jpg",
+            "img/products/fistashka-06.jpg",
+            "img/products/fistashka-07.jpg",
+            "img/products/fistashka-08.jpg"
+        ],
+        "price": "97",
+        "weight": "120"
+    },
+    {
+        "articul": "partners-25",
+        "name": "Круассан кокос-лайм",
+        "desc": false,
+        "url": "img/products/13.png",
+        "background": "img/products/13-bg.jpg",
+        "slides": [
+            "img/products/13.png"
+        ],
+        "price": "90",
+        "weight": "120"
+    },
+    {
+        "articul": "partners-26",
+        "name": "Круассан нутелла",
+        "desc": false,
+        "url": "img/products/09.png",
+        "background": "img/products/09-bg.jpg",
+        "slides": [
+            "img/products/nutella-01.jpg",
+            "img/products/nutella-02.jpg",
+            "img/products/nutella-03.jpg",
+            "img/products/nutella-04.jpg",
+            "img/products/nutella-05.jpg",
+            "img/products/nutella-06.jpg",
+            "img/products/nutella-07.jpg",
+            "img/products/nutella-08.jpg"
+        ],
+        "price": "95",
+        "weight": "120"
+    },
+    {
+        "articul": "partners-27",
+        "name": "Круассан миндаль/апельсин",
+        "desc": false,
+        "url": "img/products/12.png",
+        "background": "img/products/12-bg.jpg",
+        "slides": [
+            "img/products/mindal-01.jpg",
+            "img/products/mindal-02.jpg",
+            "img/products/mindal-03.jpg",
+            "img/products/mindal-04.jpg",
+            "img/products/mindal-05.jpg",
+            "img/products/mindal-06.jpg"
+        ],
+        "price": "115",
+        "weight": "120"
+    },
+    {
+        "articul": "partners-28",
+        "name": "Круассан соленая карамель",
+        "desc": false,
+        "url": "img/products/13.png",
+        "background": "img/products/13-bg.jpg",
+        "slides": [
+            "img/products/caramel-01.jpg",
+            "img/products/caramel-02.jpg",
+            "img/products/caramel-03.jpg",
+            "img/products/caramel-04.jpg",
+            "img/products/caramel-05.jpg",
+            "img/products/caramel-06.jpg",
+            "img/products/caramel-07.jpg"
+        ],
+        "price": "96",
+        "weight": "120"
+    },
+    {
+        "articul": "partners-29",
+        "name": "Дениш",
+        "desc": "Воздушное слоеное сливочное тесто в виде датской ватрушки с заварным кремом и сезонной ягодой/фрукты",
+        "url": "img/products/07.png",
+        "background": "img/products/07-bg.jpg",
+        "slides": [
+            "img/products/denish-01.jpg",
+            "img/products/denish-02.jpg",
+            "img/products/denish-03.jpg",
+            "img/products/denish-04.jpg",
+            "img/products/denish-05.jpg",
+            "img/products/denish-06.jpg",
+            "img/products/denish-07.jpg",
+            "img/products/denish-08.jpg",
+            "img/products/denish-09.jpg",
+            "img/products/denish-10.jpg",
+            "img/products/denish-11.jpg",
+            "img/products/denish-12.jpg",
+            "img/products/denish-13.jpg",
+            "img/products/denish-14.jpg",
+            "img/products/denish-15.jpg",
+            "img/products/denish-16.jpg",
+            "img/products/denish-17.jpg"
+        ],
+        "price": "90",
+        "weight": "130"
+    }
+]

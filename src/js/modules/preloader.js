@@ -6,6 +6,7 @@ export class Preloader {
     constructor() {
 
         this.el = document.getElementById('loader');
+
         this.loaderImage = document.querySelector('.сroissant');
         this.loaderLetters = document.querySelectorAll('.letter');
         this.body = document.body;
@@ -13,6 +14,7 @@ export class Preloader {
     }
 
     show() {
+        if (!this.el) return;
         this.pageStatus = this.body.dataset.status ? document.querySelector(`.loader-${this.body.dataset.status}`) : null;
         this.el.classList.remove('loader-start');
         this.el.classList.remove('hidden-loader');

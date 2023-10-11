@@ -1,0 +1,13 @@
+{
+    "name": "lepicruet/server",
+    "authors": [
+        {
+            "name": "Lianet",
+            "email": "chernova.liana@list.ru"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "yoomoney/yookassa-sdk-php": "^3.1"
+    }
+}

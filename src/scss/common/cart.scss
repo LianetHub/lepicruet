@@ -273,6 +273,11 @@
     // .cart__delivery-price
     &__delivery-price {
         margin-left: auto;
+        text-align: right;
+        & small {
+            display: block;
+            font-size: 0.6em;
+        }
     }
     // .cart__footer
     &__footer {
@@ -291,10 +296,29 @@
             margin-bottom: rem(20);
         }
     }
+    &__input-address {
+        &.hidden {
+            display: none;
+        }
+    }
+
     // .cart__btn
     &__btn {
         margin: rem(73) em(0) em(0) em(0);
         font-size: rem(22);
+    }
+    &__privacy {
+        margin-top: 1rem;
+        font-size: rem(14);
+        & a {
+            text-decoration: underline;
+            transition: color 0.3s ease 0s;
+            @media (any-hover: hover) {
+                &:hover {
+                    color: darken($color: $text, $amount: 10);
+                }
+            }
+        }
     }
 }
 

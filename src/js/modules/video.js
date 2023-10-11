@@ -1,6 +1,7 @@
 export class Video {
     constructor() {
         this.video = document.querySelector('.production__video');
+        if (!this.video) return;
         this.playBtn = document.querySelector('.production__video-btn');
         this.poster = document.querySelector('.production__video-poster');
         this.init();

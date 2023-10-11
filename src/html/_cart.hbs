@@ -31,33 +31,43 @@
             <div class="cart__delivery-body">
                 <div class="cart__options">
                     <label class="cart__option">
-                        <input type="radio" name="delivery" checked value="pickup" class="cart__option-input hidden" hidden>
+                        <input type="radio" name="Доставка" checked value="Самовывоз" class="cart__option-input hidden" hidden>
                         <span class="cart__option-content">
                             Самовывоз
                         </span>
                     </label>
                     <label class="cart__option">
-                        <input type="radio" name="delivery" value="city" class="cart__option-input hidden" hidden>
+                        <input type="radio" name="Доставка" value="Доставка" class="cart__option-input hidden" hidden>
                         <span class="cart__option-content">
-                            Доставка по городу
+                            Доставка по Краснодару (оплачивается отдельно)
                         </span>
                     </label>
                 </div>
                 <div class="cart__delivery-price">
-                    1200 руб.
+                    500 руб.
+                    <small>(при заказе от 2500 руб. - бесплатно)</small>
                 </div>
             </div>
             <div class="cart__footer">
-                <div class="cart__rows hidden">
+                <div class="cart__rows">
                     <div class="cart__row">
-                        <input type="text" name="name" class="input" placeholder="Ваше имя...">
+                        <input type="text" name="Имя" required class="input" placeholder="Ваше имя...">
                     </div>
                     <div class="cart__row">
-                        <input type="text" name="name" class="input" placeholder="Ваш адрес...">
+                        <input type="email" name="email" required class="input" placeholder="Ваш e-mail">
                     </div>
                 </div>
                 <button type="submit" class="cart__btn btn btn-primary">Оплатить</button>
+                <div class="cart__privacy">
+                    Нажимая кнопку "Оплатить" вы соглашаетесь с <a href="#privacy" data-modal>политикой обработки персональных данных</a>
+                </div>
             </div>
         </div>
     </form>
 </div>
+{{!-- <div id="payment" class="popup">
+    <div class="popup__body">
+        <div id="payment-form"></div>
+    </div>
+</div> --}}
+{{!-- <div id="payment-form"></div> --}}

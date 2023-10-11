@@ -37,9 +37,14 @@ function renderProducts(productData) {
     const productBtn = productItem.querySelector('.product__btn');
 
     productWrapper.setAttribute("id", productData.articul);
+    productWrapper.setAttribute('style', `background-image: url("${productData.background}")`)
     productTitle.innerHTML = productData.name;
     productTitle.setAttribute('href', `#product-modal-${productData.articul}`);
-    productDesc.innerHTML = productData.desc;
+    if (productData.desc) {
+        productDesc.innerHTML = productData.desc;
+    } else {
+        productDesc.remove();
+    }
     productImageWrapper.setAttribute('href', `#product-modal-${productData.articul}`);
     productImage.setAttribute('src', productData.url);
     productImage.setAttribute('alt', `Изображение ${productData.name}`);
@@ -80,14 +85,22 @@ function renderProductsModals(productData) {
         let image = document.createElement('img');
         image.setAttribute("src", slideUrl);
         image.setAttribute("alt", productData.name);
+        image.setAttribute("loading", "lazy");
+        let lazyLoader = document.createElement('div');
+        lazyLoader.classList.add('swiper-lazy-preloader');
         slide.appendChild(image);
+        slide.appendChild(lazyLoader);
         modalSliderWrapper.appendChild(slide);
     })
 
     productPopup.setAttribute('id', `product-modal-${productData.articul}`);
     productPopup.setAttribute('data-id', `${productData.articul}`);
     modalTitle.innerHTML = productData.name;
-    modalDesc.innerHTML = productData.desc;
+    if (productData.desc) {
+        modalDesc.innerHTML = productData.desc;
+    } else {
+        modalDesc.remove();
+    }
     modalWeight.innerHTML = productData.weight;
     modalPrice.innerHTML = productData.price;
 

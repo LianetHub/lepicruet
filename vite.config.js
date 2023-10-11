@@ -47,6 +47,7 @@ export default defineConfig({
 
       input: {
         index: path.resolve(__dirname, 'src/index.html'),
+        succes: path.resolve(__dirname, 'src/succes.html')
       },
     },
   },
@@ -82,10 +83,18 @@ export default defineConfig({
         },
         {
           src: normalizePath(path.resolve(__dirname, 'src/img/products/**.*')),
-          dest: 'assets/img/products'
+          dest: 'assets/img/products/'
         },
         {
           src: normalizePath(path.resolve(__dirname, 'src/favicon/**.*')),
+          dest: ''
+        },
+        {
+          src: normalizePath(path.resolve(__dirname, 'src/*.php')),
+          dest: ''
+        },
+        {
+          src: normalizePath(path.resolve(__dirname, 'vendor/')),
           dest: ''
         },
       ]
